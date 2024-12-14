@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import { AccountModel } from '@/domain/models'
 
 export type AuthenticationParams = {
