@@ -1,4 +1,4 @@
-import { HttpResponse } from '@/data/protocols/http/http-response'
+import { HttpResponse } from '.' // o "." faz referencia a pasta
 
 export type HttpPostParams<T> = {
     url: string
