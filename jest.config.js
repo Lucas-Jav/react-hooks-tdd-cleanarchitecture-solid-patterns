@@ -4,9 +4,9 @@ module.exports = {
         '<rootDir>/src/**/*.{ts,tsx}'
     ],
     coverageDirectory: 'coverage',
-    testEnvironment: 'node',
+    testEnvironment: 'jsdom',
     transform: {
-        '.+\\.ts$': 'ts-jest'
+        '.+\\.(ts|tsx)$': 'ts-jest'
     },
     moduleNameMapper: {
         '@/(.*)': '<rootDir>/src/$1' // tudo que vier depois do @/... ele vai trocar por <rootDir>/src/$1, o $1 sendo o que esta depois do @/
